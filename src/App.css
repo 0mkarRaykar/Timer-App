@@ -1,0 +1,68 @@
+/* App.css */
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.left-side, .right-side {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-side {
+  background-color: #f0f0f0;
+}
+
+.right-side {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.timer p {
+  margin: 5px 0;
+}
+
+.timer button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ff4d4d;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timer button:hover {
+  background-color: #ff1a1a;
+}
+
+.right-side input {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.right-side button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.right-side button:hover {
+  background-color: #45a049;
+}
